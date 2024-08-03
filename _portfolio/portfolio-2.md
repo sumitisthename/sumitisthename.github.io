@@ -1,6 +1,6 @@
 ---
 title: "Real Time Attendance System using Face Recognition"
-excerpt: "Short description of portfolio item number 2<br/><img src='/images/portfolio2-block-diagram.png'>"
+excerpt: "Short description of portfolio item number 2<br/><img src='/images/face-recognition.png'>"
 collection: portfolio
 ---
 

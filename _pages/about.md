@@ -15,7 +15,7 @@ I'm currently working towards breaking into the tech industry, using this platfo
 
 When I am not with my laptop, you will find me hiking in the mountains, playing a sport, or trying out a different cuisine.
 
-## Experience
+# Experience
 
 ### Eaton Corporation, Pittsburgh, PA
 **Data Science Intern**  
@@ -48,7 +48,7 @@ When I am not with my laptop, you will find me hiking in the mountains, playing 
 - Worked on the V2X stack, supporting both DSRC and CV2X for autonomous vehicles, showcasing competitive communication solutions.
 - Proficient in using the Valgrind tool to examine the program for memory leaks and employing the GDB tool to identify and troubleshoot program crashes.
 
-## Education
+# Education
 
 ### University of Texas at Arlington, TX
 **Master of Science in Information Systems**  
@@ -62,7 +62,7 @@ When I am not with my laptop, you will find me hiking in the mountains, playing 
 - Certification: Programming in Java & Developing Web App using Servlets in JSP – Level 1 (NIIT)  
 *July 2020*
 
-## Leadership Experience
+# Leadership Experience
 
 - **President of Association of Information Technology Professionals**: Hosted and headed over 20 career events, workshops, and networked with 60+ industry professionals.
 - **Honeywell Leadership Challenge Academy in association with NASA**: Selected globally based on a record of academic excellence and community service to participate in workshops related to science and leadership.

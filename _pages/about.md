@@ -15,41 +15,56 @@ I'm currently working towards breaking into the tech industry, using this platfo
 
 When I am not with my laptop, you will find me hiking in the mountains, playing a sport, or trying out a different cuisine.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Experience
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### Eaton Corporation, Pittsburgh, PA
+**Data Science Intern**  
+*May 2023 – Aug 2023*  
+- Applied time series analysis and feature extraction techniques to detect cavitation in pumps, contributing to the Edge Intelligence team’s business goals.
+- Conducted in-depth analysis of waveform data, performing feature engineering in both the time and frequency domains, and utilized statistical methods to assess their relevance and significance.
+- Developed and designed ML models for cavitation detection to improve pump performance and efficiency. Reported results to stakeholders for further decision-making after implementation, evaluation, and validation.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### University of Texas at Arlington, TX
+**Graduate Teaching Assistant**  
+*September 2023 – May 2024*  
+- Conducted in-depth analysis of organizational performance data to extract valuable insights and create comprehensive reports for the Department of Management, effectively managing tasks in a fast-paced environment.
+- Applied statistical models to perform an exam audit, collating student performance data across multiple sources. Effectively communicated these statistics to management, enabling data-driven decision-making for future strategies and initiatives.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Tata Consultancy Services (TCS), Bengaluru, India
+**Data Engineer**  
+*Apr 2021 – Jul 2022*  
+- Developed and maintained 5G communication software, focusing on HTTP request handling and JSON response analysis for inter-node communication in the 5G core, ensuring 3GPP compliance.
+- Collaborated seamlessly within the team as well as with cross-functional groups, utilizing Python for coding tasks and employing GitLab for efficient code versioning, synchronization, and collaboration within the master branch.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Ojman Technologies, Bengaluru, India
+**System Software Developer**  
+*Aug 2020 – Apr 2021*  
+- Developed a predictive maintenance system using IoT sensors and real-time data processing with Apache Kafka and Spark to monitor electrical equipment health, reducing downtime by 20%.
+- Integrated with AWS for data storage and analysis and created dashboards in Power BI for actionable insights into equipment performance and failure patterns.
 
-**Markdown generator**
+### Savari Inc., Bengaluru, India
+**Software Developer Intern**  
+*May 2019 – Aug 2019*  
+- Worked on the V2X stack, supporting both DSRC and CV2X for autonomous vehicles, showcasing competitive communication solutions.
+- Proficient in using the Valgrind tool to examine the program for memory leaks and employing the GDB tool to identify and troubleshoot program crashes.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Education
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### University of Texas at Arlington, TX
+**Master of Science in Information Systems**  
+*May 2024*  
+- GPA: 3.6 / 4.0  
+- Maverick Advantage Distinction Award.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### PES University, Bangalore, India
+**Bachelors in Electronics and Communication**  
+- GPA: 3.0 / 4.0  
+- Certification: Programming in Java & Developing Web App using Servlets in JSP – Level 1 (NIIT)  
+*July 2020*
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Leadership Experience
+
+- **President of Association of Information Technology Professionals**: Hosted and headed over 20 career events, workshops, and networked with 60+ industry professionals.
+- **Honeywell Leadership Challenge Academy in association with NASA**: Selected globally based on a record of academic excellence and community service to participate in workshops related to science and leadership.
+
+---

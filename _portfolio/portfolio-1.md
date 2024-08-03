@@ -1,9 +1,9 @@
 ---
 title: "Aeroinsights"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/airplane.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/airport.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This is particular project focues on the application of GenAI in the field of business analytics. Airport authorities can make use of this RAG to better serve their customers. Customer reviews are analyzed and summary is provided to airport authorities to take action based on the same.
 
-![Airplane](/images/Airplane.png)
+![Airplane](/images/airport.png)

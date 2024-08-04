@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello there, I'm Sumit "  **Bold title with a friendly greeting emoji**
+title: "Hello there, I'm Sumit "  
 author_profile: true
 redirect_from: 
   - /about/

@@ -15,8 +15,8 @@ redirect_from:
 
 **When I am not with my laptop, you will find me hiking in the mountains, playing a sport, or trying out a different cuisine.
 
-*  Hiking in the mountains ️:deciduous_tree:
-*  Playing a sport :badminton::
+*  Hiking in the mountains	:shamrock:
+*  Playing a sport :badminton:
 *  Trying out a new cuisine :fork_and_knife:
 
 # Experience

@@ -235,10 +235,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _chatbot
   - scope:
       path: ""
-      type: teaching
+      type: chatbot
     values:
       layout: single
       author_profile: true

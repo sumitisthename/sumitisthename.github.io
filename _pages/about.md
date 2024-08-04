@@ -13,11 +13,7 @@ redirect_from:
 
 **I'm currently working towards breaking into the tech industry, using this platform to showcase my skills and help businesses grow.**
 
-**When I am not with my laptop, you will find me hiking in the mountains, playing a sport, or trying out a different cuisine.**
-
-*  Hiking in the mountains	☘️
-*  Playing a sport :badminton:
-*  Trying out a new cuisine :fork_and_knife:
+**When I am not with my laptop, you will find me hiking in the mountains ☘️, playing a sport :badminton:, or trying out a different cuisine :fork_and_knife:.**
 
 # Experience
 

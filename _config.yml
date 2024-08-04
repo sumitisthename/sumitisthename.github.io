@@ -200,8 +200,7 @@ kramdown:
 
 
 # Collections
-chatbot:
-  teaching:
+  chatbot:
     output: true
     permalink: /:collection/:path/
   publications:

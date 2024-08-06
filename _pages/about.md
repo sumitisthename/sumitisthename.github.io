@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-**I'm a Data Scientist with a flair for Generative AI, blending serious skills with a dash of curiosity—think of me as the wizard of data magic!.**
+I'm a **Data Scientist** with a flair for **Generative AI**, blending serious skills with a dash of curiosity—think of me as the wizard of data magic!.
 
-**My interests lie in crafting innovative data solutions, developing intelligent systems with Generative AI, and pushing the envelope in machine learning and big data analysis.**
+My interests lie in crafting innovative data solutions, developing intelligent systems with Generative AI, and pushing the envelope in **machine learning** and **big data** analysis.
 
-**I'm currently working towards breaking into the tech industry, using this platform to showcase my skills and help businesses grow.**
+I'm currently working towards breaking into the tech industry, using this platform to showcase my skills and help businesses grow.
 
-**When I am not with my laptop, you will find me hiking in the mountains ☘️, playing a sport :badminton:, or trying out a different cuisine :fork_and_knife:.**
+When I am not with my laptop, you will find me hiking in the **mountains** ☘️, playing a **sport** :badminton:, or trying out a different **cuisine** :fork_and_knife:
 
 # Experience
 

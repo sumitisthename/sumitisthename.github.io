@@ -1,6 +1,6 @@
 ---
 title: "Aeroinsights"
-excerpt: <img src='/images/airport.png'>"
+excerpt: "<img src='/images/airport.png'>"
 collection: portfolio
 ---
 

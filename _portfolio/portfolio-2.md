@@ -45,6 +45,7 @@ The preprocessing is done using the following OpenCV function:
 
 ```python
 imageBlob = cv2.dnn.blobFromImage(image, scalefactor=1.0, size, mean, swapRB)
+```
 
 ## Face Detection Using Deep Learning
 

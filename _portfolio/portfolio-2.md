@@ -53,7 +53,33 @@ We are using Deep Learning face detectors available in OpenCV for face detection
 
 - **Face with Tilt**: The DL face detector can accurately detect faces even when they are tilted.
 - **Low Light Conditions**: The detector is effective in relatively dark environments.
-
-This robust detection capability ensures higher accuracy and reliability in diverse conditions.
+- **.prototxt file**: Contains the architecture of the network.
+- **.caffeemodel**: Contains the weights of the network.
 
 ![Face_Detection](/images/face-detect.png)
+
+### SSD
+
+- Single Shot : This means that the tasks of object localization and classification are done in single forward pass of network.
+- This builds up on the VGG-16 but discards the fully connected layers. This is because VGG-16 has strong performance in high quality image classification
+
+### FaceNet
+FaceNet is used to convert the image into embeddings (128D)
+
+![Embeddings](/images/Embeddings.png)
+
+## Face Recognition Process
+
+- **Face recognition** is a one-to-many check of the probe image with all images in the dataset.
+- The process is completed by computing a similarity index between images.
+- This uniquely identifies the probe image.
+
+![FaceMatch](/images/face-match.png)
+
+## Results
+
+| Training Images | Testing Images | Accuracy (%) |
+|-----------------|----------------|--------------|
+| 1500            | 1500           | 95%          |
+| 1800            | 1200           | 96.21%       |
+| 2100            | 900            | 97.31%       |

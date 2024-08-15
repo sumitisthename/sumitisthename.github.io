@@ -2,7 +2,7 @@
 title: "Certificate Achievements"
 collection: "certificates"
 type: "Certificate Collection"
-permalink: /milestones/
+permalink: /milestones/certificates/
 ---
 
 # My Certificate Achievements

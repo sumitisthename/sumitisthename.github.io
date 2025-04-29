@@ -18,21 +18,34 @@ When I am not with my laptop, you will find me hiking in the **mountains** , pla
 
 # Experience
 
+### Charles Schwab , Dallas, TX
+**Data Science Intern**  
+*Jan 2024 – Apr 2025*  
+- Built scalable preprocessing pipelines to address class imbalance in internal operational risk datasets using techniques like
+SMOTE and feature normalization, improving data quality and enabling accurate detection of rare high-impact risk events.
+- Developed and optimized XGBoost models to predict escalation likelihood and client churn within internal support systems,
+improving AUC-ROC by 20% and leveraging SHAP for actionable insight delivery to business stakeholders.
+- Optimized investment portfolios using Monte Carlo simulations, resulting in a 2.5% increase in annualized returns while
+managing risk exposure. Boosted sales forecasting accuracy by 15% using ARIMA models, providing revenue growth trends.
+
 ### Eaton Corporation, Pittsburgh, PA
 **Data Science Intern**  
 *May 2023 – Aug 2023*  
-- Applied time series analysis and feature extraction techniques to detect cavitation in pumps, contributing to the Edge Intelligence team’s business goals.
-- Conducted in-depth analysis of waveform data, performing feature engineering in both the time and frequency domains, and utilized statistical methods to assess their relevance and significance.
-- Developed and designed ML models for cavitation detection to improve pump performance and efficiency. Reported results to stakeholders for further decision-making after implementation, evaluation, and validation.
+- Developed an SVM-based cavitation detection model for centrifugal pumps, achieving 85.98% precision via advanced feature
+engineering, cross-validation, and hyperparameter tuning.
+- Ingested and processed 134.27 million data points from 128 files using Python, downsampled the data by 97% for efficient
+analysis, and applied feature engineering for the selection of relevant features.
+- Built scalable machine learning workflows using AWS (S3, Lambda, SageMaker), enabling parallel data processing and
+efficient model training in distributed cloud environments, accelerating deployment cycles.
 
 ### University of Texas at Arlington, TX
 **Graduate Teaching Assistant**  
-*September 2023 – May 2024*  
+*September 2023 – Dec 2023*  
 - Conducted in-depth analysis of organizational performance data to extract valuable insights and create comprehensive reports for the Department of Management, effectively managing tasks in a fast-paced environment.
 - Applied statistical models to perform an exam audit, collating student performance data across multiple sources. Effectively communicated these statistics to management, enabling data-driven decision-making for future strategies and initiatives.
 
 ### Tata Consultancy Services (TCS), Bengaluru, India
-**Data Engineer**  
+**Software Engineer**  
 *Apr 2021 – Jul 2022*  
 - Developed and maintained 5G communication software, focusing on HTTP request handling and JSON response analysis for inter-node communication in the 5G core, ensuring 3GPP compliance.
 - Collaborated seamlessly within the team as well as with cross-functional groups, utilizing Python for coding tasks and employing GitLab for efficient code versioning, synchronization, and collaboration within the master branch.

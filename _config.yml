@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Sumit's Personal Website"
+title                    : "Sumit De - Data Scientist & Generative AI Enthusiast"
 title_separator          : "-"
 name                     : &name "Sumit De"
-description              : &description "personal description"
+description              : &description "Sumit De's personal portfolio website. A data scientist specializing in generative AI, machine learning, and big data analysis."
 url                      : https://sumitisthename.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sumitisthename/sumitisthename.github.io"

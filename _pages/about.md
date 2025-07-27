@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello there, I'm Sumit "
+layout: home
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,6 +15,16 @@ My interests lie in crafting innovative data solutions, developing intelligent s
 I'm currently working towards breaking into the tech industry, using this platform to showcase my skills and help businesses grow.
 
 When I am not with my laptop, you will find me hiking in the **mountains** , playing a **sport**  , or trying out a different **cuisine** 
+
+# Skills
+
+*   **Languages and IDEs:** Python, SQL, VS Code, Jupyter Notebook, PyCharm, Google Colab, JIRA
+*   **Frameworks & Libraries:** PyTorch, Langchain, TensorFlow, Scikit-learn, Keras, NumPy, Pandas, SciPy, Hugging Face
+*   **Cloud & Distributed Systems:** AWS (S3, Lambda, EMR, SageMaker, Bedrock), MLflow, FAISS, Airflow
+*   **Software Engineering:** Version control (Git, Gitlab), Docker, CI/CD pipelines, REST API development, Agile methodology
+*   **Statistical Modeling & Analytics:** Supervised & Unsupervised Learning, Experiment Design, A/B Testing, KPI Tracking, Clustering, Anomaly Detection, Casual Inference
+*   **Deep Learning:** CNN, ANN, RNN, LSTM
+*   **Data Visualization:** Tableau, Power BI, Matplotlib, Seaborn
 
 # Experience
 

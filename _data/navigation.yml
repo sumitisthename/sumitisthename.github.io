@@ -14,3 +14,6 @@ main:
     
   - title: "ChatBot"
     url: /chatbot/
+
+  - title: "Contact"
+    url: /contact/

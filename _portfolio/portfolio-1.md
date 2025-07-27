@@ -1,12 +1,14 @@
 ---
 title: "Aeroinsights"
-excerpt: "<img src='/images/airport.png'>"
+excerpt: "<img src='/images/airport.png' alt='Aeroinsights project screenshot'>"
 collection: portfolio
 ---
 
+<a href="https://github.com/sumitisthename/Data-Analysis-of-Airline-Prices.git" class="btn btn--primary">Source Code</a>
+
 This is particular project focues on the application of GenAI in the field of business analytics. Airport authorities can make use of this RAG to better serve their customers. Customer reviews are analyzed and summary is provided to airport authorities to take action based on the same.
 
-![Airplane](/images/block-diagram.png)
+![Aeroinsights block diagram](/images/block-diagram.png)
 
 # System Flow
 
@@ -28,6 +30,20 @@ The application scrapes all reviews for the selected airport from the Skytrax we
 | Retrieval QA with Source Chain          | Retrieve Relevant Information Chunk                  |
 | OpenAI LLM                              | Large Language Model                                 |
 
+## Technologies Used
+
+* Python
+* Streamlit
+* Selenium
+* BeautifulSoup
+* LangChain
+* OpenAI API
+* FAISS
+
+## Problem Solved
+
+This project addresses the challenge of analyzing large volumes of unstructured customer feedback from airport reviews. By leveraging generative AI, the application provides airport authorities with actionable insights to improve customer service and make data-driven decisions.
+
 # Solution Details
 
 The libraries used are:
@@ -39,7 +55,7 @@ The libraries used are:
 ### Step 3 – Splitting the Data
 The scraped data is divided into multiple chunks using `RecursiveCharacterTextSplitter`. This segmentation helps filter only the relevant chunks for the LLM model in the subsequent step, thereby reducing the number of tokens sent to the OpenAI LLM and saving costs.
 
-![Split](/images/split.png)
+![Data splitting diagram](/images/split.png)
 
 ### Step 4 – Overlapping Chunks
 This step involves overlapping the chunks in controlled amounts to maintain the context continuity of each chunk, ensuring the integrity of the splits' meanings. This prevents meaningless splits that could lead to unreasonable answers.
@@ -63,8 +79,8 @@ The aim of the application is to provide a user-friendly interface for analyzing
 Users can, for instance, prompt the application to identify the most frequently mentioned feature of a chosen airport. Inquiries can range from discerning the best and worst facilities to gauging the overall public sentiment surrounding the airport. The depth and focus of the application's insights are directed by the specificity of the user's prompts, as seen in the provided user interface.
 
 # Mock UI Image
-![UI-1](/images/UI-1.png)
-![UI-2](/images/UI-2.png)
+![Aeroinsights user interface screenshot 1](/images/UI-1.png)
+![Aeroinsights user interface screenshot 2](/images/UI-2.png)
 
 
 ## Relevance to Business Analytics

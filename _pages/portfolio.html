@@ -3,12 +3,63 @@ layout: archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
+classes: wide
 ---
 
 {% include base_path %}
 
+<div class="portfolio-intro">
+  <p>Welcome to my portfolio! Here you'll find a collection of my projects showcasing my expertise in Data Science, Machine Learning, and Generative AI. Each project demonstrates my passion for solving real-world problems through innovative technology solutions.</p>
+</div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="portfolio-grid">
+  {% for post in site.portfolio %}
+    <div class="portfolio-item">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+.portfolio-intro {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.portfolio-intro p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.portfolio-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 

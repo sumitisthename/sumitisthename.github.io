@@ -1,27 +1,43 @@
 ---
-title: "Multi-Agent Financial Advisor"
-excerpt: "A multi-agent financial system that uses LangGraph to analyze market data, forecast asset prices, identify risks, ensure compliance, and make investment decisions."
+title: "Real-Time Attendance System using Face Recognition"
+excerpt: "<img src='/images/face-recognition.png'>"
 collection: portfolio
+date: 2023-12-01
+tags: [Computer Vision, Deep Learning, Face Recognition, OpenCV, SVM, Python]
+categories: [AI/ML, Computer Vision]
+header:
+  image: /images/face-recognition.png
+  teaser: /images/face-recognition.png
+  caption: "Automated attendance system using facial recognition"
 ---
 
-<a href="https://github.com/sumitisthename/Multi-Agent-FinancialAdvisor.git" class="btn btn--primary">Source Code</a>
+## 🎯 Problem Statement
 
-![Multi-Agent Financial Advisor project image](/images/financial.jpg)
+Traditional attendance systems are manual, error-prone, and inefficient. In large-scale environments, this leads to inaccurate records and administrative overhead. This project solves that by implementing an **automated real-time facial recognition system** for attendance tracking.
 
-## Problem Solved
+## 🏗️ System Architecture
 
-This project tackles the complexity of financial analysis by creating a team of specialized AI agents that work together to provide a comprehensive investment recommendation. This approach allows for a more thorough and data-driven analysis than a single agent could provide.
+| Component           | Technology               | Purpose                                 |
+|---------------------|--------------------------|-----------------------------------------|
+| Face Detection      | OpenCV DNN (SSD)         | Localize faces in real-time             |
+| Feature Extraction  | FaceNet                  | Generate 128D facial embeddings         |
+| Classification      | Support Vector Machine   | Match embeddings to known identities    |
+| Image Preprocessing | OpenCV                   | Standardize and normalize inputs        |
+| Development         | Python                   | Backend logic and ML integration        |
 
-## Technologies Used
+## 🔄 Working Methodology
 
-* LangGraph
-* Streamlit
-* Python
-* Pandas
-* NumPy
-* scikit-learn
-* yfinance
-* Groq API
-* CodeCarbon
+### 1. Image Preprocessing
+- Resize to 160x160 pixels
+- Normalize color channels
+- Create blob for DNN model input
 
-This project is a multi-agent financial system that uses LangGraph to analyze market data, forecast asset prices, identify risks, ensure compliance, and make investment decisions. The system is designed to be a proof-of-concept for applying autonomous agents to complex financial tasks.
+```python
+def preprocess_image(image):
+    image = cv2.resize(image, (160, 160))
+    blob = cv2.dnn.blobFromImage(
+        image, scalefactor=1.0,
+        size=(160, 160), mean=(127.5, 127.5, 127.5),
+        swapRB=True
+    )
+    return blob

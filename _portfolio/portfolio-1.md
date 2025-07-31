@@ -1,105 +1,118 @@
 ---
-title: "Aeroinsights"
+title: "Aeroinsights - AI-Powered Airport Analytics Platform"
 excerpt: "<img src='/images/airport.png' alt='Aeroinsights project screenshot'>"
 collection: portfolio
+date: 2024-01-15
+tags: [Machine Learning, NLP, RAG, OpenAI, Streamlit, FAISS, Business Analytics]
+categories: [Data Science, AI/ML]
+header:
+  image: /images/airport.png
+  teaser: /images/airport.png
+  caption: "AI-powered airport review analysis system"
 ---
 
 <a href="https://github.com/sumitisthename/Data-Analysis-of-Airline-Prices.git" class="btn btn--primary">Source Code</a>
 
-This is particular project focues on the application of GenAI in the field of business analytics. Airport authorities can make use of this RAG to better serve their customers. Customer reviews are analyzed and summary is provided to airport authorities to take action based on the same.
+**Aeroinsights** is a Generative AI-powered business analytics tool designed to help airport authorities extract actionable insights from unstructured customer reviews using RAG (Retrieval-Augmented Generation) systems.
 
 ![Aeroinsights block diagram](/images/block-diagram.png)
 
-# System Flow
+## 🎯 Project Overview
 
-### Step 1 – User Selection
-The application prompts the user to select an airport for review analysis.
+Aeroinsights transforms massive volumes of unstructured airport review data into insightful business metrics. It uses cutting-edge NLP and LLM tools to reveal customer sentiment, operational bottlenecks, and strategic growth opportunities.
 
-### Step 2 – Web Scraping
-The application scrapes all reviews for the selected airport from the Skytrax website using Selenium.
+## 🏗️ System Architecture
 
-# System Architecture
+| **Component**     | **Technology**          | **Purpose**                             |
+|------------------|------------------------|-----------------------------------------|
+| Frontend         | Streamlit              | Web-based interactive interface         |
+| Web Scraping     | Selenium, BeautifulSoup| Data extraction from Skytrax reviews    |
+| Text Processing  | LangChain              | Chunking and context preservation       |
+| Embeddings       | OpenAI Embeddings      | Vectorization of review chunks          |
+| Vector Database  | FAISS                  | Similarity search engine                |
+| LLM              | OpenAI GPT             | Generating human-like responses         |
+| IDE              | PyCharm                | Development environment                 |
 
-| **Tool / Model**                        | **Function**                                         |
-|-----------------------------------------|------------------------------------------------------|
-| Streamlit                               | Web Application Creator                              |
-| Selenium & BeautifulSoup                | Web scraping data                                    |
-| PyCharm                                 | Python IDE                                           |
-| OpenAI Embeddings                       | Text to Embedding                                    |
-| FAISS (Facebook AI Similarity Search)   | Used as a Vector DB and Similarity Search Engine     |
-| Retrieval QA with Source Chain          | Retrieve Relevant Information Chunk                  |
-| OpenAI LLM                              | Large Language Model                                 |
+## 🔄 System Flow
 
-## Technologies Used
+1. **Airport Selection**  
+   Users choose an airport for review analysis from a curated list.
 
-* Python
-* Streamlit
-* Selenium
-* BeautifulSoup
-* LangChain
-* OpenAI API
-* FAISS
+2. **Data Collection**  
+   Web scraping extracts reviews from Skytrax via Selenium.
 
-## Problem Solved
+3. **Text Processing**  
+   - Splitting with `RecursiveCharacterTextSplitter`  
+   - Controlled overlap for context preservation  
+   - Vector embeddings using OpenAI API  
 
-This project addresses the challenge of analyzing large volumes of unstructured customer feedback from airport reviews. By leveraging generative AI, the application provides airport authorities with actionable insights to improve customer service and make data-driven decisions.
+4. **Intelligent Retrieval**  
+   - Embeddings stored in FAISS  
+   - Semantic similarity search with user query  
 
-# Solution Details
-
-The libraries used are:
-1. `streamlit` (imported as `st`)
-2. `pickle`
-3. `time`
-4. `langchain` (specifically, `OpenAI` and various components from `langchain.chains`, `langchain.text_splitter`, `langchain.document_loaders`, `langchain.embeddings`, and `langchain.vectorstores`)
-
-### Step 3 – Splitting the Data
-The scraped data is divided into multiple chunks using `RecursiveCharacterTextSplitter`. This segmentation helps filter only the relevant chunks for the LLM model in the subsequent step, thereby reducing the number of tokens sent to the OpenAI LLM and saving costs.
+5. **Response Generation**  
+   - Contextual assembly of relevant chunks  
+   - GPT-based response generation  
+   - Source attribution for transparency  
 
 ![Data splitting diagram](/images/split.png)
 
-### Step 4 – Overlapping Chunks
-This step involves overlapping the chunks in controlled amounts to maintain the context continuity of each chunk, ensuring the integrity of the splits' meanings. This prevents meaningless splits that could lead to unreasonable answers.
+## 💡 Key Features
 
-### Step 5 – Embedding Creation
-The overlapped chunks are then converted into embedding vectors using OpenAI embeddings. This facilitates semantic searches within the database.
+### 🔍 Advanced Analytics
+- Multi-dimensional sentiment analysis  
+- Trend & anomaly detection  
+- Airport-wise comparative insights  
+- Real-time data ingestion and analysis  
 
-### Step 6 – Storing Vectors and Semantic Search
-The embeddings are then stored as indices in FAISS, where a semantic search is performed based on the similarity index between the chunks and the user-provided query.
+### 🤖 AI-Powered Insights
+- Natural language querying  
+- Context-aware responses  
+- Multilingual capabilities  
+- Scalable and adaptive intelligence  
 
-### Step 7 – Text Analysis and Response Generation
-The chosen data segments and user query are forwarded to the OpenAI LLM, accompanied by a standard prompt, for data examination and response formulation.
+### 📊 Business Intelligence
+- KPIs and sentiment dashboards  
+- Operational pain-point detection  
+- Strategic benchmarking  
+- Predictive insight delivery  
 
-### Step 8 – LLM Response Display
-The response generated by the LLM is displayed on the web application.
+## 🎨 User Interface
 
-# Expected Outcome
+Easy-to-use dashboard tailored for business users:
 
-The aim of the application is to provide a user-friendly interface for analyzing airport reviews. After a user selects an airport, the application comprehensively reads all associated reviews. It then stands ready to address any questions regarding these reviews.
+![UI-1](/images/UI-1.png)  
+![UI-2](/images/UI-2.png)
 
-Users can, for instance, prompt the application to identify the most frequently mentioned feature of a chosen airport. Inquiries can range from discerning the best and worst facilities to gauging the overall public sentiment surrounding the airport. The depth and focus of the application's insights are directed by the specificity of the user's prompts, as seen in the provided user interface.
+## 🚀 Business Impact
 
-# Mock UI Image
-![Aeroinsights user interface screenshot 1](/images/UI-1.png)
-![Aeroinsights user interface screenshot 2](/images/UI-2.png)
+### **Data-Driven Decisions**
+- Structured summaries from raw reviews  
+- Informed infrastructure and policy changes  
+- Competitive benchmarking  
 
+### **Operational Efficiency**
+- Service gaps identified from reviews  
+- Staffing and logistics optimization  
+- Better resource allocation  
 
-## Relevance to Business Analytics
+### **Customer Experience**
+- Real-time complaint tracking  
+- Targeted service improvements  
+- Better passenger satisfaction  
 
-The Airport Analyzer application offers significant potential in business analytics, providing invaluable insights into customer experience, operational efficiency, competitive analysis, and strategic decision-making. Its global reach further enhances its impact, offering a comprehensive understanding of market dynamics and enabling tailored services to meet diverse customer needs.
+### **Strategic Advantage**
+- Market-aware insights  
+- Predictive maintenance  
+- Enhanced revenue via feedback loops  
 
-**Data-Driven Decision Making:**
-The application leverages NLP techniques to extract actionable insights from unstructured data, such as airport reviews. These insights empower airport administrators to make informed decisions regarding infrastructure upgrades, service enhancements, and resource allocation.
+## 🔧 Technical Implementation
 
-**Operational Efficiency:**
-Customer feedback offers critical insights into various operational aspects, such as check-in processes, security procedures, and overall airport facilities. Business analysts can utilize this information to streamline operations, thereby improving the passenger experience.
-
-**Predictive Analytics:**
-By analyzing historical airport reviews, the AI system can identify trends and patterns, enabling predictive analytics. This foresight allows for proactive measures to address potential issues before they escalate, resulting in enhanced customer satisfaction and loyalty.
-
-**Customer Experience Optimization:**
-The application's ability to gauge sentiment and preferences from user reviews enables airports to adjust their services and facilities to better meet customer expectations. This leads to improved customer experiences, fostering higher satisfaction and loyalty.
-
-**Strategic Decision Making:**
-Insights derived from AI can assist airport authorities, airlines, and other stakeholders in making strategic decisions within the aviation industry. Business analysts can help develop data-driven strategies, optimize resource allocation, and enhance global competitiveness.
-
-
+### Core Libraries
+```python
+streamlit          # Web app
+langchain          # LLM pipeline orchestration
+openai             # GPT & embedding APIs
+faiss-cpu          # Vector search
+selenium           # Dynamic web scraping
+beautifulsoup4     # HTML parsing

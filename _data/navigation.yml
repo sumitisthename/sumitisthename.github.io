@@ -5,9 +5,15 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
+    
+  - title: "Skills"
+    url: /skills/
         
   - title: "Blog Posts"
     url: /blogs/
+    
+  - title: "Contact"
+    url: /contact/
     
   - title: "CV"
     url: /files/Sumit_Resume.pdf
